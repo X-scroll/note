@@ -1,0 +1,102 @@
+回顾：什么是node：
+         基于V8引擎的js运行环境
+         node特点（3个）：
+         单线程、非阻塞I/O、事件驱动
+         单线程：只开辟一个空间（只有一个运行空间）
+         非阻塞I/O：I：input，O：output     阻塞的I/O相当于js中的同步   非阻塞I/O相当于js的异步
+         事件驱动（事件循环）：回调函数嵌套回调函数         相当于setTimeout
+         历程：2009年2月诞生，年底开源，2016年火爆
+         localhost访问本地服务器        ===http://127.0.0.1:3000  （http://协议，127.0.0.1域名，:3000端口）
+         localhost=127.0.0.1
+
+面试题：线程和进程的区别？
+
+           
+=============================================
+res.end()   //结束响应，括号内只能传字符串!!!需要用到toString()方法。
+     arguments必须是string或者buffer（缓存区）
+res.end((1+2+3+4).toString())
+
+url中的“/**”、如“/red”、“/green”叫做：路由！！
+
+window.location
+search==》？
+hash==》#
+href==》完整url
+host（主机）
+hostname（主机名）
+port（端口号）
+
+
+URL模块下面包含的内容：
+parse:  解析（转JSON）     url.parse(req.url)==>string格式   url.parse(req.url,true)==>object
+     url.parse相当于window.location.href
+	JSON.stringify()转字符串       JSON.parse()转对象
+parse下包含的属性：
+url.parse(urlStr, [parseQueryString], [slashesDenoteHost])
+slashesDenoteHost
+默认为false，//foo/bar 形式的字符串将被解释成 { pathname: ‘//foo/bar' }
+如果设置成true，//foo/bar 形式的字符串将被解释成  { host: ‘foo', pathname: ‘/bar' }
+
+  portcol端口域
+  auth  权限
+  host  主机
+  port  端口
+  hostname  主机名
+  hash  hash值#
+  search  ?及后边大的内容
+  query  获取(接收)get方式传输过来的字段   !!!
+  pathname  路由名称“/”后面的一级名字
+  path  完整路径
+  href  页面跳转路径
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+parse ==》解析url地址，将字符串转化为对象
+
+resolve ==》 拼接 转为字符串，第一个参数为主内容，第二个参数会即将拼接或替换的内容
+
+format  ==》格式化 将对象转化为字符串
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

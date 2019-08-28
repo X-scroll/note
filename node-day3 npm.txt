@@ -1,0 +1,16 @@
+npm 包管理工具
+npm init 项目初始化 npm init -y
+silly-datatime
+npm install 下载(安装依赖)  npm i
+npm install silly-datetime(-g 全局 -save（-S）生产环境 -sava（-D）开发环境）
+-g   -save  -save-dev
+node_modules
+
+
+nvm node的版本管理工具
+
+nrm 镜像管理源工具
+npm install nrm -g 
+nrm ls 镜像列表
+nrm use 切换镜像源
+

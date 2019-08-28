@@ -1,0 +1,22 @@
+git ==>github      码云（git svn）
+分布式管理系统
+	三端：本地区，暂存区，远端区
+
+svn 集成式管理系统
+	两端：本地，远端
+commit 提交  本地 ==>远端
+update 更新 （拉取）远端 ==>本地
+
+
+mongodb  rototMongo   Navicat
+
+git bash  命令行
+	git init  初始化 
+	git status  查看文件状态
+	git add <file> <file> 添加单/多个文件    git add.添加所有文件
+	git commit -m 提交到暂存区 -m 注释(mark"")
+	// git config --global user.name"用户名"
+	// git config --global user.email "邮箱"
+	git remote add origin 地址 链接远程仓库
+	git push -u origin master 第一次提交
+	
